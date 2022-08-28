@@ -192,6 +192,8 @@ body {
 
 .booklet .b-wrap-right img {
   border: 1px solid #e6e3c2;
+  width:230px;
+
 }
 
 a#next_page_button,
@@ -419,4 +421,8 @@ a#prev_page_button:hover {
   font-family: var(--title);
   font-size: calc(var(--base-size) * 0.67);
   text-align: center;
+}
+.book_wrapper p { 
+  font-size: inherit;
+
 }
