@@ -81,8 +81,10 @@ body {
 .page__content-table td {
   font-family: var(--title);
   font-size: calc(var(--base-size) * 1);
-  padding-bottom: calc(var(--baseline) * 1.5);
+  padding-bottom: calc(var(--baseline) * 0.7);
   text-transform: uppercase;
+  font-size: smaller;
+  
 }
 
 /* Booklet jQuery Plugin Style*/
